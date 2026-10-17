@@ -1,0 +1,34 @@
+# Secrets - never commit these
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env
+
+# Python
+backend/venv/
+backend/.venv/
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+backend/heatwise.db
+backend/outputs/*
+!backend/outputs/.gitkeep
+backend/cache/*
+!backend/cache/.gitkeep
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+*.tsbuildinfo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
